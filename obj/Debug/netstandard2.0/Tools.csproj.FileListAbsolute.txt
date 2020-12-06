@@ -1,5 +1,0 @@
-C:\Users\jjaue\source\repos\Dealership\Tools\bin\Debug\netstandard2.0\Tools.deps.json
-C:\Users\jjaue\source\repos\Dealership\Tools\bin\Debug\netstandard2.0\Tools.dll
-C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Tools.csprojAssemblyReference.cache
-C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Tools.AssemblyInfoInputs.cache
-C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Tools.AssemblyInfo.cs
