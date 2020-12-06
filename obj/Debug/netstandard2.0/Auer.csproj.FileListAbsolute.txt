@@ -1,0 +1,16 @@
+C:\Users\jjaue\source\repos\Dealership\Tools\bin\Debug\netstandard2.0\Auer.deps.json
+C:\Users\jjaue\source\repos\Dealership\Tools\bin\Debug\netstandard2.0\Auer.dll
+C:\Users\jjaue\source\repos\Dealership\Tools\bin\Debug\netstandard2.0\Auer.pdb
+C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Auer.csprojAssemblyReference.cache
+C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Auer.AssemblyInfoInputs.cache
+C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Auer.AssemblyInfo.cs
+C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Auer.dll
+C:\Users\jjaue\source\repos\Dealership\Tools\obj\Debug\netstandard2.0\Auer.pdb
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\bin\Debug\netstandard2.0\Auer.deps.json
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\bin\Debug\netstandard2.0\Auer.dll
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\bin\Debug\netstandard2.0\Auer.pdb
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\obj\Debug\netstandard2.0\Auer.csprojAssemblyReference.cache
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\obj\Debug\netstandard2.0\Auer.AssemblyInfoInputs.cache
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\obj\Debug\netstandard2.0\Auer.AssemblyInfo.cs
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\obj\Debug\netstandard2.0\Auer.dll
+C:\Users\jjaue\source\repos\Dealership\Dealership\Tools\obj\Debug\netstandard2.0\Auer.pdb
