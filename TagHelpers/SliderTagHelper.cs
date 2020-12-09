@@ -7,8 +7,6 @@ using Auer.Extensions;
 
 namespace Auer.TagHelpers
 {
-
-
     /// <summary>
     /// noUIslider: https://refreshless.com/nouislider/
     /// <para>OnChange, Step, Min, Max, MinStart, MaxStart</para>
