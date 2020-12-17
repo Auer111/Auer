@@ -56,7 +56,7 @@ namespace Auer.TagHelpers
 
                 output.Content.AppendHtml(Utils.Css("/css/awesomplete.css"));
                 output.Content.AppendHtml(Utils.CssRaw(".awesomplete {flex: 1;} .visually-hidden{display: none;}"));
-                
+                    
                 output.Content.AppendHtml(Utils.Js("/js/awesomplete.min.js"));
 
                 string ID = For == null ? Id : Utils.GetID(For);
