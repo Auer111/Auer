@@ -15,10 +15,14 @@ namespace Auer.TagHelpers
         /// <returns></returns>
         public static string Js(string url)
         {
+            int UniqueScriptID = Math.Abs(url.GetHashCode());
             return $@"<script>var script = document.createElement('script');
-                                script.type = 'text/javascript';
-                                script.src = '{url}';
-                                document.body.appendChild(script);
+                                if (!window[""{UniqueScriptID}""]){{ 
+                                    window.Script_{UniqueScriptID} = 'loaded:{url}';
+                                    script.type = 'text/javascript';
+                                    script.src = '{url}';
+                                    document.body.appendChild(script);
+                                }}
                                 document.currentScript.remove();
                                 </script>";
         }
@@ -47,12 +51,28 @@ namespace Auer.TagHelpers
         /// <returns></returns>
         public static string Css(string url)
         {
+            //var link = document.createElement('link');
+            
+            //    window.Stylesheet_12312312 = 'loaded';
+            //    link.rel = 'stylesheet';
+            //    link.type = 'text/css';
+            //    link.href = 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css';
+            //    link.media = 'all';
+            //    document.head.appendChild(link);
+            //}
+            //document.currentScript.remove();
+
+
+            int UniqueStylesheetID = Math.Abs(url.GetHashCode());
             return $@"<script>var link = document.createElement('link');
-                                link.rel  = 'stylesheet';
-                                link.type = 'text/css';
-                                link.href = '{url}';
-                                link.media = 'all';
-                                document.head.appendChild(link);
+                                if (!window[""{UniqueStylesheetID}""]){{ 
+                                    window.Stylesheet_{UniqueStylesheetID} = 'loaded:{url}';
+                                    link.rel  = 'stylesheet';
+                                    link.type = 'text/css';
+                                    link.href = '{url}';
+                                    link.media = 'all';
+                                    document.head.appendChild(link);
+                                }}
                                 document.currentScript.remove();
                                 </script>";
         }
